@@ -26,6 +26,8 @@
 ```
 [W, b] = My_FCNN (X, Y, learning_rate, activation_function, num_epoch, num_units, keep_prob, batch_size, update_algorithm, print_flag, plot_flag, save_flag)  
 ```
+### Example:
+![MLP](https://github.com/LinglanZhao/My_FCNN/blob/master/optim.png)
 ## Author: 
 * Linglan Zhao
 ## Update: 
