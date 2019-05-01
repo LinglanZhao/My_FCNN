@@ -14,12 +14,11 @@
 * keep\_prob: 向量，dropout regularization的参数，每一层的保留概率，每个元素对应这一层神经元输出的保留概率  
 * batch\_size: mini-batch大小，一般设为2的幂次，若为inf则不进行mini-batch分组  
 * update\_algorithm: 用于选择标准梯度(SGD)下降或者momentum/RMSprop/Adam优化算法:
-<label style="color:blue">
    * 'SGD'
    * 'Momentum'
    * 'Nesterov_Momentum'
    * 'RMSprop'
-   * 'Adam'</label>
+   * 'Adam'
 * print\_flag: 取值true/false， 是/否在迭代过程中输出交互熵和训练错误率  
 * plot\_flag: 取值true/false， 是/否在迭代完成后绘制交互熵和训练错误率变化曲线  
 * save\_flag: 取值true/false， 是/否在训练完成后保存神经网络各层神经元的权值矩阵W和偏置向量b（cell结构）  
