@@ -27,8 +27,6 @@
 ```
 [W, b] = My_FCNN (X, Y, learning_rate, activation_function, num_epoch, num_units, keep_prob, batch_size, update_algorithm, print_flag, plot_flag, save_flag)  
 ```
-### Example:
-![An Example of MLP on MNIST](https://github.com/LinglanZhao/My_FCNN/blob/master/optim.png  ''optim'')
 ## Author: 
 * Linglan Zhao
 ## Update: 
